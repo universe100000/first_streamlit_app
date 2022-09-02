@@ -8,9 +8,9 @@ streamlit.text('🥑🍞 Avacado Toast')
 
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
-  streamlit.text('Apple')
-  streamlit.text('Mango')
-  streamlit.text('Banana')
-  streamlit.text('Pineapple')
-  streamlit.text('Grapes')
+streamlit.text('Apple')
+streamlit.text('Mango')
+streamlit.text('Banana')
+streamlit.text('Pineapple')
+streamlit.text('Grapes')
   
