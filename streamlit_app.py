@@ -21,8 +21,9 @@ streamlit.dataframe(my_fruit_list)
 streamlit.header("Fruityvice Fruit Advice!")
 #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" " + Kiwi")
-#streamlit.text(fruityvice_response.json())#raw json text displayed
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" "+ Kiwi")
+
+#raw json text displayed
 
 #upload the json file to normalize dataset using Python Pandas library function as below 
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
